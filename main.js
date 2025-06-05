@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () =>{
     const footer = document.getElementById('footer');
     if (footer) {
-        header.innerHTML = '';
+        footer.innerHTML = '';
         footer.appendChild(Footer());
     }
 });
